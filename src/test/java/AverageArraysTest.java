@@ -1,3 +1,6 @@
+import org.junit.jupiter.api.Test;
+import java.util.ArrayList;
+import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AverageArraysTest {
@@ -77,6 +80,7 @@ class AverageArraysTest {
         int[] a = { };
         int expected = 0;
         AverageIntArrays obj = new AverageIntArrays();
+
 
         assertEquals(expected, obj.average(a));
     }
